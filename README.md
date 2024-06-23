@@ -30,6 +30,11 @@ Please note that `ExactFieldSolutions` is a registered package, so you can insta
 
 ![alt text](img/Diffusion2D_Gaussian.svg)
 
+### Wave 1D 
+[Propagation of a 1D wave based on d'Alembert's solution](examples/visualisations/Visualize_Wave1D_dAlembert.jl)
+
+![alt text](img/Wave1D_dAlembert1747.svg)
+
 ### Stokes 2D
 [Viscous inclusion - Schmid & Podladchikov (2003)](examples/visualisations/Visualize_Stokes2D_Schmid2003.jl)
 
@@ -63,3 +68,13 @@ Please note that `ExactFieldSolutions` is a registered package, so you can insta
 
 
 ![alt text](img/Benchmark_Diffusion1D_FDM.svg "Diffusion in 1D using the Finite Difference Method (FDM): backward-Euler and spatial staggering") 
+
+[1D wave: Finite Difference Method (FDM) with velocity-stress discretisation](examples/benchmarks/Benchmark_Wave1D_VelStress_FDM.jl)
+
+
+![alt text](img/Benchmark_Wave1D_VelStress_FDM.svg "Wave in 1D using the Finite Difference Method (FDM): velocity-stress scheme") 
+
+[1D wave: Finite Difference Method (FDM) with conventional O(2) discretisation](examples/benchmarks/Benchmark_Wave1D_Conventional_FDM.jl)
+
+
+![alt text](img/Benchmark_Wave1D_Conventional_FDM.svg "Wave in 1D using the Finite Difference Method (FDM): conventional O(2) discretisation") 
